@@ -1,4 +1,3 @@
-// Access HTML elements
 let doorImage1 = document.getElementById('door1');
 let doorImage2 = document.getElementById('door2');
 let doorImage3 = document.getElementById('door3');
@@ -22,7 +21,7 @@ currentStreak.innerHTML = score;
 bestStreak.innerHTML = highScore;
 
 
-// Define game logic to check doors, progress game, end game, and choose a random chore door
+//game logic to check doors, progress game, end game, and choose a random chore door
 
 const isClicked = (door) => {
 if (door.src === closedDoorPath) {
@@ -109,7 +108,7 @@ startButton.onclick = () => {
   }
 }
 
-// Update the high score in local storage
+// Updating the high score in local storage
 const updateHighScore = (score) => {
     if (score > highScore) {
       highScore = score;
@@ -118,7 +117,7 @@ const updateHighScore = (score) => {
     }
   };
   
-  // Initialize high score from local storage
+  // Initializing high score from local storage
   const initializeHighScore = () => {
     const storedHighScore = localStorage.getItem('highScore');
     if (storedHighScore) {
