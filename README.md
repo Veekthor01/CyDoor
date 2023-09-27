@@ -13,9 +13,9 @@
 #### Once the repository is cloned, open the index.html file in a web browser to play the game.
 
 ### Features I added to the project
-* Game Logic Functions that checks if a door is clicked, checks if a door is closed, checks if a door contains a bot,
-* Game Logic Functions that handles the end of the game, displaying a "win" message if the player wins and a "game over" message if they lose.
-* Random Function that randomly selects one door to contain the bot and sets the paths for the other two doors.
+* Game Logic Functions that checks if a door is clicked, checks if a door is closed and checks if a door contains a bot,
+* Functions that handles the end of the game, displaying a "win" message if the player wins and a "game over" message if they lose.
+* Function that randomly selects one door to contain the bot and sets the paths for the other two doors.
 * Local storage Functionality - interacts with local storage to store and retrieve the player's high score.
 * Keeping track of the player's current score and updates it when the player wins a round. It also updates and displays the high score.
 * Added few changes to the styling
