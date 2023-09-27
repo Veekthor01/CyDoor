@@ -1,5 +1,5 @@
 body {
-    background-color: #eafa0e;
+  background-image: linear-gradient(to right, #141e30, #243b55);
     margin: 0px;
   }
   
@@ -74,6 +74,7 @@ body {
     width: 120px;
     height: 43px;
     background-color: #010165;
+    border-radius: 4px;
     padding-top: 18px;
     font-family: 'Work Sans';
     font-size: 18px;
@@ -125,7 +126,61 @@ body {
       margin: 18px;
       margin-right: 29px;
       width: 59px;
+      border-radius: 4px;
       background-color: #00ffff;
       font-family: 'Work Sans';
       font-size: 45px;
   }
+
+  /* responsive styles for screens between 320px and 480px */
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .header {
+    max-width: 100%;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+  .bot-icon {
+    font-size: 20px;
+  }
+  .title-row {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .instructions-title {
+    font-size: 16px;
+  }
+  .instructions-row {
+    width: 290px;
+  }
+  .instructions-number {
+    font-size: 30px;
+  }
+  .instructions-text {
+    font-size: 12px;
+  }
+  .door-frame {
+    padding: 5px;
+    width: 80px;
+  }
+  .start-row {
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .score-text {
+    margin-right: 10px;
+    padding: 3px;
+    font-size: 10px;
+  }
+  .score-box {
+    margin-top: 6px;
+    padding: 5px;
+    margin-right: 15px;
+    width: 40px;
+    font-size: 30px;
+  } 
+}
+
+  
