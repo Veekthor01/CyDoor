@@ -11,6 +11,7 @@
 ### How to install
 #### To install Cydoor on your device, simply clone the repository
 #### Once the repository is cloned, open the index.html file in a web browser to play the game.
+#### You can also check the about section for live site.
 
 ### Features I added to the project
 * Game Logic Functions that checks if a door is clicked, checks if a door is closed and checks if a door contains a bot,
